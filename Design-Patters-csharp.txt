@@ -1,0 +1,11 @@
+==================== Design Patterns ==================== 
+
+================ Criação ========================
+
+//Singleton
+	- Controlar acesso as instancias da classe garantindo que seja instanciada apenas uma vez
+	- Reduzir utilizacao da memoria
+	- Fornecer mais flexibilidade que a utilizacao de estruturas estaticas
+
+	Ex.: Jogo de futebol:
+		Somente uma bola é permitida no jogo. (somente uma instancia)
