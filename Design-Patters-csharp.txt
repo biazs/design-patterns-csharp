@@ -3,9 +3,29 @@
 ================ Criação ========================
 
 //Singleton
+	Problemas a serem resolvidos:
 	- Controlar acesso as instancias da classe garantindo que seja instanciada apenas uma vez
 	- Reduzir utilizacao da memoria
 	- Fornecer mais flexibilidade que a utilizacao de estruturas estaticas
 
 	Ex.: Jogo de futebol:
 		Somente uma bola é permitida no jogo. (somente uma instancia)
+
+
+//Factory method
+"Abstracao nao deve depender de detalhes
+detalhes eh quem deve depender de abstracoes"
+
+	Problemas a serem resolvidos:
+	- Eu nao posso antecipar o tipo da classe de objeto que deve ser criada. Pois, tenho objetos de varios tipos.
+	- Preciso delegar a responsabilidade para que as subclasses especifiquem os objetos que criam
+
+- Tambem conhecido como Construtor Virtual, o objetivo desse padrao eh a possibilidade
+de criar uma fabrica de objetos em tempo de execucao e deixar
+que o objeto decida seu tipo dinamicamente.
+
+- O factory method dispoe uma interface que cria um objeto,
+mas sao as subclasses que irao decidir qual classe concreta instanciar
+
+	Ex.: Jogo Mortal Kombat
+		- Varios personagens podem ser escolhidos
