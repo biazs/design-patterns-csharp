@@ -29,3 +29,10 @@ mas sao as subclasses que irao decidir qual classe concreta instanciar
 
 	Ex.: Jogo Mortal Kombat
 		- Varios personagens podem ser escolhidos
+
+//Abstract Factory
+Cria uma instancia de varias familias de classes
+
+	Ex.: Montar carro em tempo de execucao	
+		- Usuario vai selecionar montar roda luxo ou basica
+
