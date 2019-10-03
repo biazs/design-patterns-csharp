@@ -36,3 +36,10 @@ Cria uma instancia de varias familias de classes
 	Ex.: Montar carro em tempo de execucao	
 		- Usuario vai selecionar montar roda luxo ou basica
 
+
+//Builder
+Separe a construcao de um objeto complexo de sua representacao para que o mesmo 
+processo de construcao possa criar diferentes representacoes
+
+O padrao eh composto por quatro componentes basicos que sao a Interface (ou classe abstrata) 
+Builder, o concrete builder (construtor concreto), o Director (Diretor) e o product (produto) 
