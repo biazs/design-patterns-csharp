@@ -43,3 +43,29 @@ processo de construcao possa criar diferentes representacoes
 
 O padrao eh composto por quatro componentes basicos que sao a Interface (ou classe abstrata) 
 Builder, o concrete builder (construtor concreto), o Director (Diretor) e o product (produto) 
+
+
+//Prototype
+O padrão Prototype é aplicado quando existe a necessidade de clonar, literalmente, um objeto. 
+Ou seja, quando a aplicação precisa criar cópias exatas de algum objeto em tempo de execução este 
+padrão é altamente recomendado. Este padrão pode ser utilizado em sistemas que precisam ser 
+independentes da forma como os seus componentes são criados, compostos e representados. 
+O padrão Prototype pode ser útil em sistemas com as seguintes características:
+
+- sistemas que utilizam classes definidas em tempo de execução;
+- sistemas que utilizam o padrão Abstract Factory para criação de objetos. 
+Neste caso, a hierarquia de classes pode se tornar muito complexa e o padrão Prototype 
+pode ser uma alternativa mais simples, por realizar a mesma tarefa com um número reduzido 
+de classes;
+- sistemas que possuem componentes cujo estado inicial possui poucas variações e onde é 
+conveniente disponibilizar um conjunto preestabelecido de protótipos que dão origem aos 
+objetos que compõem o sistema
+
+public IFuncionario Clone()
+        {
+            return this.MemberwiseClone() as IFuncionario;
+        }
+
+Uma das principais vantagens de sua utilização é quando a inicialização de um objeto pode 
+se tornar custosa, e você quer fazer algumas pequenas variações ao inicializar. 
+Nesse contexto, o Prototype pode então evitar a criação "do zero" de novos objetos.
