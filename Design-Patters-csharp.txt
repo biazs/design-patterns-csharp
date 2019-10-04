@@ -81,3 +81,8 @@ Adapter de objeto: permite o uso de um unico adaptador p/ uma hierarquia de clas
 Desvantagens:
 Adapter de classe:  nao funciona bem quando se quer adaptar uma hierarquia de classes
 Adapter de objeto: eh mais dificil sobrescrever funcoes do adaptado
+
+
+//Bridge
+Desacoplar uma abstracao de sua implementacao para que os dois possam
+variar independentemente
