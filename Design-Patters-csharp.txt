@@ -86,3 +86,9 @@ Adapter de objeto: eh mais dificil sobrescrever funcoes do adaptado
 //Bridge
 Desacoplar uma abstracao de sua implementacao para que os dois possam
 variar independentemente
+
+
+//Composite 
+Compor objetos em estruturas de arvore para representar hierarquias de
+partes inteiras. Composite permite que os clientes tratem objetos individuais
+e composicoes de objetos de maneira uniforme.
