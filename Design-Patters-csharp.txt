@@ -69,3 +69,15 @@ public IFuncionario Clone()
 Uma das principais vantagens de sua utilização é quando a inicialização de um objeto pode 
 se tornar custosa, e você quer fazer algumas pequenas variações ao inicializar. 
 Nesse contexto, o Prototype pode então evitar a criação "do zero" de novos objetos.
+
+
+=================== Estrutural =====================================
+//Adapter
+Cria uma classe que faz uma adaptacao.
+Converta a interface de uma classe em outra interface que os clientes esperam.
+Vantagens:
+Adapter de classe: permite que o adaptador sobrescreva
+Adapter de objeto: permite o uso de um unico adaptador p/ uma hierarquia de classes adptadas
+Desvantagens:
+Adapter de classe:  nao funciona bem quando se quer adaptar uma hierarquia de classes
+Adapter de objeto: eh mais dificil sobrescrever funcoes do adaptado
