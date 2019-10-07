@@ -96,3 +96,8 @@ e composicoes de objetos de maneira uniforme.
 //Decorator
 Anexar responsabilidades adicionais a um objeto dinamicamente. Os decoradores
 fornecem uma alternativa flexivel a subclasse para estenter a funcionalidade.
+
+//Facade
+Fornecer uma interface unificada para um conjunto de interfaces em um
+subsistema. O Facade define uma interface de nivel superior que facilita
+o uso do subsistema
