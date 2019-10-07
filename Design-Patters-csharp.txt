@@ -92,3 +92,7 @@ variar independentemente
 Compor objetos em estruturas de arvore para representar hierarquias de
 partes inteiras. Composite permite que os clientes tratem objetos individuais
 e composicoes de objetos de maneira uniforme.
+
+//Decorator
+Anexar responsabilidades adicionais a um objeto dinamicamente. Os decoradores
+fornecem uma alternativa flexivel a subclasse para estenter a funcionalidade.
