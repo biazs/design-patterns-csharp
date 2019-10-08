@@ -113,3 +113,7 @@ Ex.: Jogo Super Mario (existem varios cascos de tartarugas de cores diferentes n
 Casco de tartaruga:
 intrinseca: todos sao cascos de tartaruga
 extrinseca: cada casco tem sua cor
+
+//Proxy
+Fornecer um susbtituto ou espaco reservado para outro objeto para 
+controlar o acesso a ele
