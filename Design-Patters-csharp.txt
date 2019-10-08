@@ -101,3 +101,15 @@ fornecem uma alternativa flexivel a subclasse para estenter a funcionalidade.
 Fornecer uma interface unificada para um conjunto de interfaces em um
 subsistema. O Facade define uma interface de nivel superior que facilita
 o uso do subsistema
+
+//Flyweight
+(peso mosca)
+O objetivo eh melhorar o desempenho de um procedimento compartilhando objetos
+com caracteristicas parecidas.
+Caracteristicas: 
+	Intrinsicas: propriedades imutaveis, ou seja, que caracterizam o objeto compartilhado
+	Extrinsecas: propriedades variaveis que podem receber novos valores a cada acesso
+Ex.: Jogo Super Mario (existem varios cascos de tartarugas de cores diferentes no jogo)
+Casco de tartaruga:
+intrinseca: todos sao cascos de tartaruga
+extrinseca: cada casco tem sua cor
