@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResponsibility", "Chai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{CAC59472-5A32-4B55-983B-0E42DE6DF5D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{F5115FE2-F492-4416-98B0-EF78BDA6A2A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{CAC59472-5A32-4B55-983B-0E42DE6DF5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC59472-5A32-4B55-983B-0E42DE6DF5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC59472-5A32-4B55-983B-0E42DE6DF5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5115FE2-F492-4416-98B0-EF78BDA6A2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5115FE2-F492-4416-98B0-EF78BDA6A2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5115FE2-F492-4416-98B0-EF78BDA6A2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5115FE2-F492-4416-98B0-EF78BDA6A2A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
