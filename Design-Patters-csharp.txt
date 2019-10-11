@@ -154,3 +154,9 @@ Captura e restaura o estado interno de um objeto.
 Sem violar o encapsulamento, capture e externalize o estado interno de um
 objeto para que o objeto possa ser restaurado posteriormente para
 esse estado.
+
+//Observer
+Uma maneira de notificar a mudanca para um numero de classes.
+Defina uma dependencia um-para-muitos entre objetos para que, quando um 
+objeto mudar de estado, todos os seus dependentes sejam notificados e
+atualizados automaticamente.
