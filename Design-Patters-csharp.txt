@@ -125,5 +125,11 @@ controlar o acesso a ele
 Uma maneira de passar uma requisicao entre uma cadeia de objetos
 Evite acoplar o remetente de uma solicitacao ao seu receptor, dando a mais
 de um objeto a chance de manipular a solicitacao. Encadeie os objetos
-de recebimento e passe a solicitacao ao longo da cadeira ate que um
+de recebimento e passe a solicitacao ao longo da cadeia ate que um
 objeto a manipule
+
+
+//Command
+Encapsule uma solicitacao como um objeto, permitindo assim que voce faca
+a parametrizacao de clientes com diferentes solicitacoes, enfileire ou
+registre solicitacoes, e de suporte a operacoes que podem ser desfeitas
