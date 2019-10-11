@@ -142,3 +142,8 @@ um interprete que use a representacao para interpretar sentencas na linguagem
 Sequencialmente acessa os elementos de uma colecao.
 Fornece uma maneira de acessar os elementos de um objeto agregado
 sequencialmente sem expor sua representacao subjacente.
+
+//Mediator
+Defina um objeto que encapsule como um conjunto de objetos interage. O mediador
+promove um acoplamento felixivel impedindo que os objetos se refiram explicitamente
+e permite que voce varie sua interacao de forma independente.
