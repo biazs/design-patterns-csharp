@@ -147,3 +147,10 @@ sequencialmente sem expor sua representacao subjacente.
 Defina um objeto que encapsule como um conjunto de objetos interage. O mediador
 promove um acoplamento felixivel impedindo que os objetos se refiram explicitamente
 e permite que voce varie sua interacao de forma independente.
+
+
+//Memento
+Captura e restaura o estado interno de um objeto.
+Sem violar o encapsulamento, capture e externalize o estado interno de um
+objeto para que o objeto possa ser restaurado posteriormente para
+esse estado.
