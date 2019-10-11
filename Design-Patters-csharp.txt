@@ -160,3 +160,8 @@ Uma maneira de notificar a mudanca para um numero de classes.
 Defina uma dependencia um-para-muitos entre objetos para que, quando um 
 objeto mudar de estado, todos os seus dependentes sejam notificados e
 atualizados automaticamente.
+
+//State
+Altera o comportamento de um objeto quando seu estado se altera.
+Permitir que um objeto altere seu comportamento quando seu estado interno 
+eh alterado. O objeto aparecera para mudar sua classe
