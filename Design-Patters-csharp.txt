@@ -165,3 +165,8 @@ atualizados automaticamente.
 Altera o comportamento de um objeto quando seu estado se altera.
 Permitir que um objeto altere seu comportamento quando seu estado interno 
 eh alterado. O objeto aparecera para mudar sua classe
+
+//Strategy
+Defina uma familia de algoritmos, encapsule cada um deles e torne-os intercambiaveis. 
+A estrategia permite que o algoritmo varie independentemente dos clientes que o
+usam.
