@@ -170,3 +170,9 @@ eh alterado. O objeto aparecera para mudar sua classe
 Defina uma familia de algoritmos, encapsule cada um deles e torne-os intercambiaveis. 
 A estrategia permite que o algoritmo varie independentemente dos clientes que o
 usam.
+
+//Template Method
+Adia as etapas exatas de um algoritmo para uma subclasse.
+Defina o esqueleto de um algoritmo em uma operacao, adiando algumas etapas para 
+subclasses. Template Method permite que as subclasses redefinam certas 
+etapas de um algoritmo sem alterar a estrutura do algoritmo.
