@@ -15,10 +15,9 @@ namespace InjecaoDeDependencia
             endB.UF = "MG";
 
             Empresa empresa1 = new Empresa();
-            empresa1.setEndereco(endA);
             
-            Empresa empresa2 = new Empresa();
-            empresa2.setEndereco(endB);
+            
+            Empresa empresa2 = new Empresa();            
 
 
             Console.ReadKey();

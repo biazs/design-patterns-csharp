@@ -48,6 +48,7 @@
     <Compile Include="EnderecoB.cs" />
     <Compile Include="IObjetoEndereco.cs" />
     <Compile Include="IObjetoEnderecoIJ.cs" />
+    <Compile Include="Localizador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
