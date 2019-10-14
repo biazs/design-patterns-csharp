@@ -183,6 +183,27 @@ Representa uma operacao a ser executada nos elementos de uma estrutura de
 objeto. Visitante permite definir uma nova operacao sem alterar as classes
 dos elementos em que ela opera.
 
+
 //Dependency Injection
 Em linhas gerais este padrao eh uma das formas de implementar um outro
 padro - Inversao de controle
+Devemos utilizar esse padrao quando temos a necessidade de desenvolver
+sistemas em que o nivel de acoplamento entre seus diferentes modulos
+precisem ser extremamente baixos.
+
+Vantagens:
+- Oferecer reusabilidade de componenetes, uma vez que criamos compenentes
+interdependentes, eles podem ser facilmente implementados em sistemas diversos.
+- Facilitar a manutencao de sistemas, fazendo com que as manutencoes em 
+modulos nao afetem o restante do sistema
+- Criar codigos altamente testaveis. Uma vez que temos codigos implementados
+seguindo esse Pattern, podemos testa-los mais facilmente utilizando os mock tests
+- Criar codigos mais legiveis, o que torna mais facil a compreencao do sistema
+como um todo.
+
+Modos de implementacao:
+- Construtor: implementa injecao de dependencia na definicao dos construtores das classes
+- Getter and Setter:  implementa na definicao dos Gets e Sets das classes
+- Interface Implementation: Usa a definicao de interfaces para realizar a injecao de dependencia
+- Service Locator: Construimos classes que servem como localizadoras de objetos que instaciaremos em outras classes
+
