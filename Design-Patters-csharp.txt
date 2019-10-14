@@ -176,3 +176,13 @@ Adia as etapas exatas de um algoritmo para uma subclasse.
 Defina o esqueleto de um algoritmo em uma operacao, adiando algumas etapas para 
 subclasses. Template Method permite que as subclasses redefinam certas 
 etapas de um algoritmo sem alterar a estrutura do algoritmo.
+
+//Visitor
+Define uma nova operacao para uma classe sem alteracao.
+Representa uma operacao a ser executada nos elementos de uma estrutura de
+objeto. Visitante permite definir uma nova operacao sem alterar as classes
+dos elementos em que ela opera.
+
+//Dependency Injection
+Em linhas gerais este padrao eh uma das formas de implementar um outro
+padro - Inversao de controle
