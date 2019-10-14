@@ -14,8 +14,10 @@ namespace InjecaoDeDependencia
             endB.cidade = "Belo Horizonte";
             endB.UF = "MG";
 
-            Empresa empresa1 = new Empresa(endA);
-            Empresa empresa2 = new Empresa(endB);
+            Empresa empresa1 = new Empresa();
+            empresa1.Endereco = endA;
+            Empresa empresa2 = new Empresa();
+            empresa2.Endereco = endB;
 
             Console.ReadKey();
         }
