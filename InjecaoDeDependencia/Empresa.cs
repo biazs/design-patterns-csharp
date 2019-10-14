@@ -2,16 +2,16 @@
 
 namespace InjecaoDeDependencia
 {
-    class Empresa 
+    public class Empresa : IObjetoEnderecoIJ
     {
         public int Codigo { get; set; }
         public string RazaoSocial { get; set; }
-        private IObjetoEndereco _endereco;
+        private IObjetoEndereco Endereco { get; set; }
 
-        public IObjetoEndereco Endereco
+
+        public void setEndereco(IObjetoEndereco obj)
         {
-            get { return _endereco; }
-            set { _endereco = value; }
+            this.Endereco = obj;
         }
 
         /*
